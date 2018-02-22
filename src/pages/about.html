@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>极光浏览器 - 关于我们</title>
+    <style media="screen">
+      body {
+        margin: 0px;
+        padding: 0px;
+        left: 0px;
+        top: 0px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      main {
+        min-height: 100vh;
+      }
+
+      .inner {
+        min-height: 100vh;
+        max-width: 720px;
+        margin: 0px auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      .link {
+        margin-left: .5em;
+        margin-right: .5em;
+      }
+
+      .github {
+        width: 16px;
+        height: 16px;
+      }
+
+      .keyboard {
+        background: black;
+        color: white;
+      }
+
+      table {
+        text-align: left;
+        margin: 0px auto;
+        font-family: sans-serif;
+      }
+
+      td {
+        padding: 1px 20px;
+      }
+
+      td.shortcut {
+        font-family: monospace;
+      }
+
+      .footer {
+        margin-top: 4em;
+      }
+
+      ::-moz-selection { background: #eee; }
+      ::selection { background: #eee; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="inner">
+        <h1>极速  安全  轻巧</h1>
+        <p>一款极简风格的浏览器</p>
+        <p>
+          基于 <a href="https://chromium.org/">chromium</a> 内核，采用 <a href="https://electronjs.org/">electron</a> 构建<br />
+          使用 JavaScript、HTML 和 CSS 构建跨平台的桌面浏览器
+        </p>
+      </section>
+    </main>
+
+    <main class="keyboard">
+      <section class="inner">
+        <h1>快捷键</h1>
+        <p>常用快捷键</p>
+        <table>
+          <tr>
+            <td class="shortcut">alt</td>
+            <td>显示/隐藏菜单</td>
+          </tr>
+          <tr>
+            <td class="shortcut">command + shift + d / ctrl + shift + d</td>
+            <td>开发调试工具</td>
+          </tr>
+          <tr>
+            <td class="shortcut">command + shift + a / ctrl + shift + a</td>
+            <td>关于我们</td>
+          </tr>
+          <tr>
+            <td class="shortcut">command + ← / ctrl + ←</td>
+            <td>后退</td>
+          </tr>
+          <tr>
+            <td class="shortcut">command + → / ctrl + →</td>
+            <td>前进</td>
+          </tr>
+          <tr>
+            <td class="shortcut">command + r / ctrl + r / F5</td>
+            <td>刷新</td>
+          </tr>
+          <tr>
+            <td class="shortcut">command + h / ctrl + h</td>
+            <td>主页</td>
+          </tr>
+          <tr>
+            <td class="shortcut">command + t / ctrl + t</td>
+            <td>打开新标签页</td>
+          </tr>
+          <tr>
+            <td class="shortcut">command + w / ctrl + w</td>
+            <td>关闭当前标签页</td>
+          </tr>
+          <tr>
+            <td class="shortcut">command + shift + ← / ctrl + shift + ←</td>
+            <td>切换到上一个标签页</td>
+          </tr>
+          <tr>
+            <td class="shortcut">command + shift + → / ctrl + shift + →</td>
+            <td>切换到下一个标签页</td>
+          </tr>
+          <tr>
+            <td class="shortcut">command + 0 / ctrl + 0</td>
+            <td>切换到最后一个标签页</td>
+          </tr>
+          <tr>
+            <td class="shortcut">command + [1 - 9] / ctrl + [1 - 9]</td>
+            <td>切换到 <b style="font-size: .7em;">指定</b> 标签页</td>
+          </tr>
+        </table>
+
+        <p class="footer">
+          <a color="contrast" href="https://github.com/oss-labs" class="link">
+            <img src="../static/github.svg" alt="GitHub" class="github" />
+          </a>
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
